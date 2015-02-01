@@ -1,0 +1,39 @@
+/*class Movement
+{
+  public:
+  int forward1 = 1; //right
+  int backward1 = 2;
+  int forward2 = 3; //left
+  int backward2 = 4;
+  int turnTime = ; //turnTime
+  int spinTime = ;//spin time
+}
+*/
+void parallel{
+  
+
+}
+
+void spin{
+  digitalWrite(forward1, HIGH);
+  digitalWrite(backward2, HIGH);
+  delay(spinTime);
+
+}
+
+void turnLeft{
+  digitalWrite(forward1, HIGH);
+  digitalWrite(foward2, LOW);
+  delay(turnTime);
+}
+
+void turnRight{
+  digitalWrite(forward2, HIGH);
+  digitalWrite(foward1, LOW);
+  delay(turnTime);
+}
+
+void moveForward{
+  digitalWrite(foward1, HIGH);
+  digitalWrite(forward2, HIGH);
+}
